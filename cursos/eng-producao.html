@@ -6,12 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>Engenharia da Produção</title>
+    <style>
+        :root {
+            --font-color: #36397F;
+            --text-color: #0A121A;
+        }
+
+        body {
+            background-color: var(--font-color);
+            backdrop-filter: brightness(310%);
+            color: var(--text-color);
+        }
+
+        h1,
+        h2 {
+            color: var(--font-color);
+        }
+
+        footer a {
+            border: solid 1px;
+            border-radius: 8px;
+            color: var(--text-color);
+            padding: 8px;
+            transition: all .7s;
+        }
+
+        footer a:hover {
+            box-shadow: 0px 0px 16px var(--font-color);
+            border: solid 2px var(--font-color);
+            filter: brightness(180%);
+            color: var(--font-color);
+            font-size: 20px;
+        }
+    </style>
 </head>
 
-<body>
+<body class="container-curso">
     <header>
         <h1>Engenharia da Produção</h1>
-        <img src="../img/curso-eng-producao.png" style="width: 800px;"
+        <img class="img-curso" src="../img/curso-eng-producao.jpg"
             alt="Imagem sobre o curso de Engenharia da Produção da FIAP">
     </header>
     <main>
@@ -35,8 +68,8 @@
         </div>
     </main>
     <footer>
-        <a href="./eng-computacao.html">Curso Anterior</a> |
-        <a href="../index.html">Pagina Principal</a> |
+        <a href="./eng-computacao.html">Curso Anterior</a>
+        <a href="../index.html">Pagina Principal</a>
         <a href="./eng-mecatronica.html">Proximo Curso</a>
     </footer>
 </body>

@@ -6,12 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>Análise e Desenvolvimento de sistemas</title>
+    <style>
+        :root {
+            --font-color: #D34B57;
+            --text-color: #0A121A;
+        }
+
+        body {
+            background-color: var(--font-color);
+            backdrop-filter: brightness(210%);
+            color: var(--text-color);
+        }
+
+        h1,
+        h2 {
+            color: var(--font-color);
+        }
+
+        footer a {
+            border: solid 1px;
+            border-radius: 8px;
+            color: var(--text-color);
+            padding: 8px;
+            transition: all .7s;
+        }
+
+        footer a:hover {
+            box-shadow: 0px 0px 16px var(--font-color);
+            border: solid 2px var(--font-color);
+            filter: brightness(500%);
+            color: var(--font-color);
+            font-size: 20px;
+        }
+    </style>
 </head>
 
-<body>
+<body class="container-curso">
     <header>
         <h1>Análise e Desenvolvimento de sistemas</h1>
-        <img src="../img/curso-ads.png" style="width: 800px;"
+        <img class="img-curso" src="../img/curso-ads.png"
             alt="Imagem sobre o curso de Análise e Desenvolvimento de Sistemas da FIAP">
     </header>
     <main>
@@ -33,8 +66,8 @@
         </div>
     </main>
     <footer>
-        <a href="./adm.html">Curso Anterior</a> |
-        <a href="../index.html">Pagina Principal</a> |
+        <a href="./adm.html">Curso Anterior</a>
+        <a href="../index.html">Pagina Principal</a>
         <a href="./bd.html">Proximo Curso</a>
     </footer>
 </body>
