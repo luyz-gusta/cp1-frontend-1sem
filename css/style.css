@@ -50,3 +50,23 @@ main {
 main h2 {
     width: 100%;
 }
+
+ul li:nth-child(1) a{
+    color: #094F98;   
+}
+
+ul li:nth-child(2) a{
+    color: #D34B57;   
+}
+
+ul li:nth-child(3) a{
+    color: #3d77ff;   
+}
+
+ul li:nth-child(4) a{
+    color: #2dbd62;   
+}
+
+ul li a{
+    font-weight: 450;
+}
